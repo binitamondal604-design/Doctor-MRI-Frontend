@@ -1,0 +1,232 @@
+.home-page {
+  min-height: 100vh;
+  background: #f4f7fbcb;
+}
+
+.home-header {
+  height: 70px;
+  padding: 0 40px;
+  background: rgb(144, 216, 253);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.home-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.home-header button {
+  padding: 9px 18px;
+  border: none;
+  border-radius: 6px;
+  background: hsl(254, 95%, 51%);
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.home-header button:hover {
+  opacity: 0.9;
+}
+
+.home-content {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 25px;
+}
+
+.home-content h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.home-content p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.upload-section {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.upload-section h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.upload-section input {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.upload-section button {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.upload-section button:hover {
+  opacity: 0.9;
+}
+
+.error-message {
+  color: #dc2626;
+  margin-top: 15px;
+}
+
+.analysis-result {
+  margin-top: 25px;
+  padding: 20px;
+  background: #f8fafc;
+  border: 1px solid #dbe3ee;
+  border-radius: 10px;
+}
+
+.analysis-result h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.analysis-result p {
+  margin-bottom: 8px;
+}
+
+.pending-text {
+  font-weight: 600;
+}
+
+.file-preview {
+  margin-top: 20px;
+}
+
+.mri-preview {
+  display: block;
+  width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: 1px solid #dbe3ee;
+}
+
+.patient-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.patient-form input,
+.patient-form select {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.patient-form input:focus,
+.patient-form select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.analysis-result {
+  margin-top: 30px;
+  padding: 25px;
+  background: #f8fafc;
+  border: 1px solid #dbe3ef;
+  border-radius: 12px;
+}
+
+.analysis-result h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.result-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.result-label {
+  font-weight: 500;
+  color: #4b5563;
+}
+
+.result-value {
+  font-weight: 700;
+}
+
+.demo-note {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.mri-preview {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.mri-preview img {
+  width: 280px;
+  height: 280px;
+  object-fit: contain;
+  border: 1px solid #dbe3ef;
+  border-radius: 10px;
+  background: #000;
+  padding: 8px;
+}
+
+.new-analysis-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.new-analysis-btn:hover {
+  background: #1d4ed8;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.dashboard-link {
+  text-decoration: none;
+  padding: 9px 16px;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.dashboard-link:hover {
+  background: #1d4ed8;
+}
+
